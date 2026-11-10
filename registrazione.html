@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrati - Imperial Circus Dead Decadence</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Imperial Circus Dead Decadence</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chi-siamo.html">La Band</a></li>
+                <li><a href="discografia.html">Discografia</a></li>
+                <li><a href="live.html">Live</a></li>
+                <li><a href="registrazione.html" class="active">Registrati</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Registrati</h2>
+        <p>Compila il form per registrarti.</p>
+
+        <form action="conferma.html" method="GET">
+            <label for="nome">Nome e Cognome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="citta">Città</label>
+            <select id="citta" name="citta" required>
+                <option value="">Scegli...</option>
+                <option value="milano">Milano</option>
+                <option value="roma">Roma</option>
+                <option value="torino">Torino</option>
+                <option value="altro">Altra</option>
+            </select>
+
+            <button type="submit">Invia</button>
+        </form>
+    </main>
+
+    <footer>Sito di Riccardo Livio Verduci - 2026</footer>
+</body>
+</html>
