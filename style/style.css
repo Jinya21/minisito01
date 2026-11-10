@@ -115,3 +115,9 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+main img {
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
